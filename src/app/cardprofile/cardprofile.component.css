@@ -1,0 +1,16 @@
+
+.pokemoscard{
+    border: 2px solid #21bf33;
+        box-shadow: -7px -5px 20px 0px #348737;
+    
+    
+}
+
+.txtnomepoke{
+
+    box-shadow: -1px 1px 8px 0px #73b776;
+    font-family: system-ui;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-align: center;
+}

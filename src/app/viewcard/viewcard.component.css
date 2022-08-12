@@ -1,0 +1,28 @@
+.txtcenter{
+    font-feature-settings: "smcp", "c2sc";
+    font-variant: all-small-caps;
+    display: flex;
+    justify-content: center;
+    font-family: system-ui;
+    background: #464e35;
+    padding: 20px;
+    border: 1px solid rgb(41 255 13 / 38%);
+    color: #ffffff;
+    border-radius: 5px;
+    box-shadow: -20px -10px 20px 2px #348737;
+}
+.pokemos{
+   
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: #454a39;
+    color: aliceblue;
+
+}
+*{
+    padding-top:5px;
+
+}

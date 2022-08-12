@@ -1,0 +1,13 @@
+<h1 class='txtcenter'>Crystian PokeDex</h1>
+<br>
+<div class="pokemos" >
+    <app-cardprofile 
+    *ngFor="let pokemon of pokedexservice.pokemons
+    index as i"
+    [pokemonName]="pokemon['name']"
+    [id]="i + 1"
+
+    >
+
+    </app-cardprofile>
+</div>
